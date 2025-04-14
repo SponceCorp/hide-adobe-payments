@@ -1,0 +1,17 @@
+{
+  "name": "sponcecorp/hide-adobe-payments",
+  "description": "Micro-module to prevent Payment Services from taking up 80% of the config screen",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "Apache-2.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SponceCorp\\HideAdobePayments\\": ""
+    }
+  }
+}
